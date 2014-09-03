@@ -10,7 +10,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         watch: {
             livereload: {
-                files: ['src/index.html'],
+                files: ['src/index.html', 'src/slides/*'],
                 tasks: 'htmllint',
                 options: {
                     livereload: true
