@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Getting Groovy on Android</title>
+
+    <!-- Fill These Out -->
+    <meta name="description" content="Groovy Lang on Android">
+    <meta name="author" content="Andrew Reitz">
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="lib/reveal.js/css/reveal.min.css">
+    <!-- Change this to the theme of your choice -->
+    <link rel="stylesheet" href="lib/reveal.js/css/theme/moon.css" id="moon">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/reveal.js/lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+        document.write('<link rel="stylesheet" href="lib/reveal.js/css/print/' + ( window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">');
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="reveal">
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        <section data-markdown="slides/1.md"></section>
+        <section data-markdown="slides/2.md"></section>
+        <section data-markdown="slides/3.md"></section>
+        <section data-markdown="slides/4.md"></section>
+        <section data-markdown="slides/5.md"></section>
+        <section data-markdown="slides/6.md"></section>
+        <section data-markdown="slides/7.md"></section>
+        <section data-markdown="slides/8.md"></section>
+        <section data-markdown="slides/9.md"></section>
+        <section data-markdown="slides/10.md"></section>
+        <section data-markdown="slides/11.md"></section>
+        <section data-markdown="slides/12.md"></section>
+        <section data-markdown="slides/13.md"></section>
+        <section data-markdown="slides/14.md"></section>
+        <section data-markdown="slides/15.md"></section>
+        <section data-markdown="slides/16.md"></section>
+        <section data-markdown="slides/17.md"></section>
+        <section data-markdown="slides/18.md"></section>
+        <section data-markdown="slides/19.md"></section>
+        <section data-markdown="slides/20.md"></section>
+        <section data-markdown="slides/21.md"></section>
+        <section data-markdown="slides/22.md"></section>
+        <section data-markdown="slides/23.md"></section>
+        <section data-markdown="slides/24.md"></section>
+        <section data-markdown="slides/25.md"></section>
+    </div>
+
+    <script src="lib/reveal.js/lib/js/head.min.js"></script>
+    <script src="lib/reveal.js/js/reveal.min.js"></script>
+
+    <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            maxScale: 5.0,
+
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'lib/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'lib/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'lib/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'lib/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                { src: 'lib/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+            ]
+        });
+
+    </script>
+</div>
+</body>
+</html>
