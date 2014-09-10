@@ -2,4 +2,4 @@
 
 Groovy Running on Android Lighting Talk for GUM
 
-Presentation available [here](bit.ly/android-groovy)
+Presentation available [here](http://bit.ly/android-groovy)
